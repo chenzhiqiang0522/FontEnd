@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn">点我一下</button>
+    <button id="btn2">点我一下2</button>
+  <script>
+
+      /*
+      * location表示的浏览器地址栏的信息
+      *     - 可以直接将location的值修改为一个新的地址，这样会使得网页发生跳转
+      * */
+
+    const btn = document.getElementById('btn');
+    const btn2 = document.getElementById('btn2');
+    const begin = Date.now();
+
+    btn.addEventListener('click',()=>{
+        alert('111111')
+        while (Date.now()-begin<3000){
+            
+        }
+    });
+    btn2.addEventListener('click',()=>{
+        alert('2222222')
+    })
+
+  </script>
+</body>
+</html>

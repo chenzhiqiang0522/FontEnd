@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>instance&hasOwn()方法</title>
+</head>
+<body>
+
+  <script>
+    /*
+      in用来检查属性是否存在在类中无论是在类自身属性中还是原型中，只要定义了则返回true，否则返回false
+      instance用来检查一个对象是不是某个类的实例，任何对象都是Object的实例；
+      hasOwnProperyh()用来检查属性是否在对象自身属性中，
+      可以使用hasOwn()来代替
+
+    * */
+    class Person {
+      name="孙悟空";
+      age=18;
+
+      sayHello(){
+        console.log("Hello,我是"+this.name)
+      }
+    }
+
+    const p = new Person()
+    console.log(Object.hasOwn(p,'name1'))
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!--
+ * @Author: NickWiber 1249323612@qq.com
+ * @Date: 2023-01-29 12:03:56
+ * @LastEditors: NickWiber 1249323612@qq.com
+ * @LastEditTime: 2023-01-29 20:16:29
+ * @FilePath: \CSS\练习文件\float.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #f1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin: 0 0 0 0;
+        float: left;
+    }
+    #f2{
+        width: 400px;
+        height: 200px;
+        background-color: yellow;
+        float: left;
+    }
+    #f3{
+        width: 100px;
+        height: 300px;
+        background-color: blue;
+    }
+    .f4{
+        margin: 0;
+        padding: 0;
+        width: 500px;
+        height: 100px;
+        border: 6px solid gold;
+        overflow: auto;
+    }
+    .clearFix{
+        overflow: auto;
+    }
+    #sonDiv{
+        width: 100px;
+        height: 200px;
+        background-color: brown;
+        float: right;
+        overflow: auto;
+    }
+</style>
+
+<body>
+    <div id="f1"></div>
+    <div id="f2"></div>
+    <div id="f3"></div>
+    <div class="f4 clearFix">
+        <div id="sonDiv"></div>
+    </div>
+</body>
+</html>

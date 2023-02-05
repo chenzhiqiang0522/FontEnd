@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78cb7495-1b5e-4023-afbe-c52c1c13d9ae" name="Changes" comment="配置说明" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KEAUZYnqaTgFkBxPtNgyzDvfJI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/桌面/前端/JavaScript",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "ts.external.directory.path": "D:\\桌面\\TS\\Practice\\node_modules\\typescript\\lib",
+    "two.files.diff.last.used.file": "D:/codeFile/TypeScript/webpack.config.js",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\TS\面向对象\src" />
+      <recent name="D:\桌面\TS\面向对象" />
+      <recent name="D:\桌面\TS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.10_Enum.js">
+    <configuration name="09_Function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/面向对象/dist/09_Function.js" working-dir="$PROJECT_DIR$/面向对象/dist">
+      <method v="2" />
+    </configuration>
+    <configuration name="10_Enum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/面向对象/dist/10_Enum.js" working-dir="$PROJECT_DIR$/面向对象/dist">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice/src/test.js" working-dir="$PROJECT_DIR$/Practice/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.10_Enum.js" />
+        <item itemvalue="Node.js.09_Function.js" />
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78cb7495-1b5e-4023-afbe-c52c1c13d9ae" name="Changes" comment="" />
+      <created>1673529384570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673529384570</updated>
+      <workItem from="1673529385680" duration="285000" />
+      <workItem from="1673530208916" duration="847000" />
+      <workItem from="1673539365899" duration="15000" />
+      <workItem from="1673539394794" duration="3130000" />
+      <workItem from="1673592495319" duration="17413000" />
+      <workItem from="1673788466418" duration="2704000" />
+      <workItem from="1673838960718" duration="4229000" />
+      <workItem from="1673870350662" duration="6644000" />
+      <workItem from="1673964000236" duration="358000" />
+      <workItem from="1674009789478" duration="1789000" />
+      <workItem from="1674018081351" duration="2680000" />
+      <workItem from="1674217744424" duration="2499000" />
+      <workItem from="1674290167682" duration="2627000" />
+      <workItem from="1674635757562" duration="714000" />
+    </task>
+    <task id="LOCAL-00001" summary="配置说明">
+      <created>1673593519586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673593519586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="配置说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置说明" />
+  </component>
+</project>

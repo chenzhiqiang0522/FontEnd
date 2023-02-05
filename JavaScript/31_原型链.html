@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型</title>
+</head>
+<body>
+  <script>
+    /*
+    * 可以通过__proto__和Object.getPrototypeOf()来访问原型，二者时相同的
+    * 注意：
+    *   原型对象也有原型，这样就构成了一条原型链，根据对象的复杂程度不同，原型链的长度也不同
+    *   原型链：
+    *     读取对象属性时，会优先去对象属性中寻找，对象属性中有，则使用，没有则去对象的原型中寻找；
+    *     如果对象的原型中有则使用，没有则去对象的原型的原型中寻找，递归进行；
+    *     直到找到Object对象的原型（Object对象没有原型），如果还没有找到则返回undefined。
+    *   原型链时找属性的链，找不到返回undefined
+    *   作用域链是找变量的链，找不到会报错。
+    * */
+    class Ins {
+      name="孙悟空";
+      age=18;
+
+      sayHello(){
+        console.log("Hello,我是"+this.name)
+      }
+    }
+
+    const p =new Ins()
+    console.log(p)
+    console.log(p.__proto__)
+    console.log(Object.getPrototypeOf(p)===p.__proto__)
+  </script>
+
+</body>
+</html>
